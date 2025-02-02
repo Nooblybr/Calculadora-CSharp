@@ -48,6 +48,7 @@ partial class Form1
         button17 = new Button();
         button18 = new Button();
         button19 = new Button();
+        btn_raizQuadrada = new Button();
         SuspendLayout();
         // 
         // button1
@@ -252,11 +253,23 @@ partial class Form1
         button19.UseVisualStyleBackColor = true;
         button19.Click += PressionarBotao;
         // 
+        // btn_raizQuadrada
+        // 
+        btn_raizQuadrada.Font = new Font("Segoe UI", 12F);
+        btn_raizQuadrada.Location = new Point(20, 117);
+        btn_raizQuadrada.Name = "btn_raizQuadrada";
+        btn_raizQuadrada.Size = new Size(78, 66);
+        btn_raizQuadrada.TabIndex = 20;
+        btn_raizQuadrada.Text = "√";
+        btn_raizQuadrada.UseVisualStyleBackColor = true;
+        btn_raizQuadrada.Click += btn_raizQuadrada_Click;
+        // 
         // Form1
         // 
         AutoScaleDimensions = new SizeF(7F, 15F);
         AutoScaleMode = AutoScaleMode.Font;
         ClientSize = new Size(381, 483);
+        Controls.Add(btn_raizQuadrada);
         Controls.Add(button19);
         Controls.Add(button18);
         Controls.Add(button17);
@@ -305,4 +318,5 @@ partial class Form1
     private Button button17;
     private Button button18;
     private Button button19;
+    private Button btn_raizQuadrada;
 }

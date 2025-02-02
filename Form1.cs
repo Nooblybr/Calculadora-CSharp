@@ -33,17 +33,36 @@ public partial class Form1 : Form
 
     private void btnCalcular_Click(object sender, EventArgs e)
     {
-        string expressao = txtVisor.Text.Replace(",",".");
-        
+        string expressao = txtVisor.Text.Replace(",", ".");
+
         DataTable dt = new DataTable();
-        try{
+        try
+        {
             var resultado = Convert.ToDouble(dt.Compute(expressao, null));
 
             txtVisor.Text = resultado.ToString();
         }
-        catch (Exception ex) {
+        catch (Exception ex)
+        {
             txtVisor.Text = "ERRO";
         }
-        
+
+    }
+
+    private void btn_raizQuadrada_Click(object sender, EventArgs e)
+    {
+        DataTable dt = new DataTable();
+        string expressao = txtVisor.Text.Replace(",", ".");
+
+        try
+        {
+            double num = Convert.ToDouble(dt.Compute(expressao, null));
+            double resultado = Math.Sqrt(num);
+            txtVisor.Text = resultado.ToString();
+        }
+        catch (Exception ex) 
+        {
+            txtVisor.Text = "ERRO";
+        }
     }
 }

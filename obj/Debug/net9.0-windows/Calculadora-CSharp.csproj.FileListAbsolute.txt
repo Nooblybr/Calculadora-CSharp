@@ -14,3 +14,4 @@ C:\Users\leona\OneDrive\Documentos\GitHub\Calculadora-CSharp\obj\Debug\net9.0-wi
 C:\Users\leona\OneDrive\Documentos\GitHub\Calculadora-CSharp\obj\Debug\net9.0-windows\Calculadora-CSharp.pdb
 C:\Users\leona\OneDrive\Documentos\GitHub\Calculadora-CSharp\obj\Debug\net9.0-windows\Calculadora-CSharp.genruntimeconfig.cache
 C:\Users\leona\OneDrive\Documentos\GitHub\Calculadora-CSharp\obj\Debug\net9.0-windows\ref\Calculadora-CSharp.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\Calculadora-CSharp\obj\Debug\net9.0-windows\Calculadora-CSharp.sourcelink.json
